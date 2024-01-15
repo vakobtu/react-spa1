@@ -63,7 +63,7 @@ const App = () => {
             <ThemeToggle>{t('themeToggle')}</ThemeToggle>
             <LanguageSwitcher />
           </div>
-
+          
           <hr />
 
           <Routes>
@@ -74,8 +74,11 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
           </Routes>
         </div>
+        
       </Router>
+      
     </I18nextProvider>
+    
   );
 };
 

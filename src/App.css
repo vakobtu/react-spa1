@@ -114,6 +114,11 @@ body {
   font-size: 14px;
 
 }
+@media (max-width: 730px) {
+  .theme-toggle-button {
+   position: static;
+  }
+}
 
 .theme-toggle-button:hover {
   background-color: #555;

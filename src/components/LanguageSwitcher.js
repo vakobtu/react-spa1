@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import './LanguageSwitcher.css'; // Import your CSS file
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -11,7 +11,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div>
+    <div className="language-switcher-container">
       <button onClick={() => changeLanguage('en')}>English</button>
       <button onClick={() => changeLanguage('ge')}>Georgian</button>
     </div>
