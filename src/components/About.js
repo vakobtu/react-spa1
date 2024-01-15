@@ -1,20 +1,19 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="container">
-      <h2>About Us</h2>
+      <h2>{t('about')}</h2>
       <p>
-        Welcome to our website! We are a passionate team dedicated to providing
-        high-quality services and information. Our mission is to make a positive
-        impact on the world through our work.
+      {t('aboutus-p1')}
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-        Proin fermentum dolor vel dui fringilla, ac volutpat turpis
-        pellentesque. Aenean facilisis quam sed justo eleifend, sit amet
-        vestibulum nibh convallis. Sed at risus vitae quam tristique posuere.
+      {t('aboutus-p2')}
       </p>
       {}
     </div>

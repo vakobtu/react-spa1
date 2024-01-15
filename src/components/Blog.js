@@ -1,14 +1,16 @@
-// src/components/Blog.js
 import React from 'react';
 import useApiData from '../hooks/useApiData';
-import './Blog.css'; // Import the CSS file
+import './Blog.css';
+import { useTranslation } from 'react-i18next';
 
 const Blog = () => {
   const { data: blogPosts, loading, error } = useApiData('https://jsonplaceholder.typicode.com/posts');
+  const { t } = useTranslation();
 
   return (
+    
     <div className="container">
-      <h2>Blog Page</h2>
+      <h2>{t('blog')}</h2>
       {loading && <p className="loading">Loading...</p>}
       {error && <p className="error">Error: {error.message}</p>}
       <ul>

@@ -1,11 +1,23 @@
 
 {
-    "Home": "Home",
-    "About": "About",
-    "Services": "Services",
-    "Contact": "Contact",
-    "Blog": "Blog",
-    "themeToggle": "Toggle Dark/Light Mode"
-    
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact US",
+    "blog": "Blog",
+    "themeToggle": "Toggle Dark/Light Mode",
+    "greeting": "Hello",
+    "aboutus-p1": "Welcome to our website! We are a passionate team dedicated to providing high-quality services and information. Our mission is to make a positive impact on the world through our work.",
+    "aboutus-p2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla Facilisi. Proin fermentum dolor vel dui fringilla, ac volutpat turpis pellentesque. Aenean facilisis quam sed justo eleifend, sit amet vestibulum nibh convallis. Sed at risus vitae quam tristique posuere.",
+    "contactus-p": "Have questions or feedback? Feel free to reach out to us using the form below.",
+    "contactus-name": "Your Name",
+    "contactus-email": "Your Email",
+    "contactus-message": "Your Message",
+    "contactus-button": "Send Message",
+    "quiz": "Quiz",
+    "quiz-p": "Is that React Final project?",
+    "yes": "Yes",
+    "no": "No",
+    "score": "Your current score"
   }
   

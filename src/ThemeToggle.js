@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const ThemeToggle = () => {
   const [isDarkMode, setDarkMode] = useState(false);
@@ -11,7 +12,7 @@ const ThemeToggle = () => {
       setDarkMode(storedTheme === 'dark');
     }
   }, []);
-
+  const { t } = useTranslation();
   const toggleTheme = () => {
     const newTheme = isDarkMode ? 'light' : 'dark';
     setDarkMode(!isDarkMode);
